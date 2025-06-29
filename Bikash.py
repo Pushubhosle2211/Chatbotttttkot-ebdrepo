@@ -7,15 +7,15 @@ import os
 import re
 
 
-API_ID = os.environ.get("API_ID", "none") 
-API_HASH = os.environ.get("API_HASH", "none") 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "none") 
-MONGO_URL = os.environ.get("MONGO_URL", "none")
+API_ID = os.environ.get("API_ID", "25052657") 
+API_HASH = os.environ.get("API_HASH", "58a6ffd47aded01d137ab6af5bc899cf") 
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8054400945:AAFFoE-B1jSW5YRZntx2Gquh4F96vc8gr8Q") 
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://ItzDengerboy:itzdengerboixddd@cluster0.f0mfedi.mongodb.net/?retryWrites=true&w=majority")
 BOT_IMAGE = os.environ.get("BOT_IMAGE", "none")
-BOT_USERNAME = os.environ.get("BOT_USERNAME", "none")
-OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "none")
-SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "none")
-UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "none")
+BOT_USERNAME = os.environ.get("BOT_USERNAME", "Chat_Op_Bot")
+OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "MAFIA_RAJ_OP")
+SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "HOT_HAI_BOSS")
+UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "HOT_HAI_BOSS")
 
 
 bot = Client(
